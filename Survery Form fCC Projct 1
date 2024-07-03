@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<h1 id="title">Survey Form</h2>
+
+<body>
+  <p id="description">This is the survey form for happy birthay.com! Please fill out every space clearly.</P>
+</body>
+
+<form id="survey-form">
+  
+  <label id="name-label">Name</label> 
+  <br><input id="name" type="name" required="required" placeholder="name"/>
+  <br>
+  <label id="email-label">E-mail</label>
+  <br> 
+  <input id="email" type="email" required="required" placeholder="email"/>
+  <br>
+  <label id="number-label">Number</label> 
+  <br>
+  <input id="number" type="number" min="1" max="999" placeholder="num"/>
+<br>
+
+<p>What's your favorite thing to do?</p>
+<p><em>You can only choose one</em></p>
+  <select name="major" id="dropdown">
+  <option value="Art">Art</option>
+  <option value="CS">CS</option>
+  <option value="Dance">Dance</option>
+  <option value="Math">Math</option>
+  <option value="Plays">Broadway</option>
+</select>
+<br>
+
+<p>Choose your favorite word!</p>
+<input for="swag" type="radio" value="swag" name="swag"></input>
+<label for="html"><em>swag</em></label><br>
+<input for="love" type="radio" value="love" name="swag"></input>
+<label for="love"><em>love</em></label><br>
+<br>
+
+<p>What's your favorite music genres?</p>
+<input type="checkbox" id="hiphop" name="hip-hop" value="hiphop">
+<label>Hip-Hop</label>
+<br>
+<input type="checkbox" id="rock" name="Rock" value="rock">
+<label>Rock</label>
+<br>
+<input type="checkbox" id="pop" name="Pop" value="pop">
+<label>Pop</label>
+<br>
+<input type="checkbox" id="Jazz" name="Jazz" value="Jazz">
+<label>Jazz</label>
+<br>
+<input type="checkbox" id="classical" name="Classical" value="classical">
+<label>Classical</label>
+<br>
+
+<p>Any other questions/comments/concerns?</p>
+<textarea id="swag survey" name="swag survey"></textarea>
+<br>
+<button id="submit"><em>Submit</em></button> 
+</form>
